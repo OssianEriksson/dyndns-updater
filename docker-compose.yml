@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  dyndns:
+    image: ghcr.io/ossianeriksson/dyndns-updater:latest
+    secrets:
+      - dyndns
+
+secrets:
+  dyndns:
+    file: ./dyndns.json

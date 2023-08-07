@@ -1,0 +1,19 @@
+{
+  "services": [
+    {
+      "type": "get",
+      "name": "a fancy name for mydomain1.com",
+      "url": "https://user:password@domains.google.com/nic/update?hostname=mydomain1.com",
+      "delay": 300
+    },
+    {
+      "type": "cpanel",
+      "name": "another fancy name, but for mydomain2.com",
+      "origin": "https://mycpanelhost.com",
+      "domain": "mydomain2.com",
+      "user": "user",
+      "password": "password",
+      "delay": 300
+    }
+  ]
+}
